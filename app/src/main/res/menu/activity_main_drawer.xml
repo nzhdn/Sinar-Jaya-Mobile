@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_agen_favorit"
+            android:icon="@drawable/fav"
+            android:title="Agen Favorit" />
+        <item
+            android:id="@+id/nav_peta_agen"
+            android:icon="@drawable/maps"
+            android:title="Peta Agen" />
+        <!--<item
+            android:id="@+id/nav_upload_agen"
+            android:icon="@drawable/upload"
+            android:title="Upload Agen/Bus" />-->
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_more"
+                android:icon="@drawable/send"
+                android:title="More Apps" />
+        </menu>
+    </item>
+
+</menu>
